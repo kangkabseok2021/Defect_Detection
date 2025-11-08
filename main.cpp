@@ -96,7 +96,7 @@ void demonstrateModularity(const cv::Mat& image) {
     std::cout << "  ✓ Reusable components\n";
     std::cout << "  ✓ Easy to extend with new detectors\n";
     
-    std::cout << "\nPress any key to close windows..." << std::endl;
+    std::cout << "\nPress Cntl + C keys to close windows..." << std::endl;
     cv::waitKey(0);
 
     cv::destroyAllWindows();
